@@ -22,7 +22,7 @@ password = ...  # Ваш пароль
 
 import school_mos
 
-user = school_api.AUTH(_login=login, _password=password,
+user = school_mos.AUTH(_login=login, _password=password,
                        show_token=True  # необязательный параметр, см. ниже
                        )
 ```
