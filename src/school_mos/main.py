@@ -8,7 +8,6 @@ from re import sub
 
 MARK_WEIGHTS_SYMBOLS = {1: '\u00B9', 2: '\u00B2', 3: '\u00B3', 4: '\u2074', 5: '\u2075'}
 EXLIST = ['marks', 'homework', 'absence_reason_id', 'health_status', 'nonattendance_reason_id']
-BINDING_TEST_URL = 'https://uchebnik.mos.ru/exam/launch/specification/{}?material_type=TestSpecification&mode=preview&'
 
 
 class AUTH:
